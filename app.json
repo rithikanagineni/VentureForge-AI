@@ -1,0 +1,35 @@
+{
+  "name": "VentureForge AI",
+  "description": "An AI-powered Startup Blueprint Generator that transforms startup ideas into investor-ready business plans using IBM watsonx.ai and IBM Granite 4 H Small Foundation Model.",
+  "repository": "https://github.com/rithikanagineni/VentureForge-AI",
+  "website": "",
+  "logo": "",
+  "keywords": [
+    "IBM",
+    "watsonx.ai",
+    "Granite",
+    "AI",
+    "Startup",
+    "Business",
+    "Next.js",
+    "TypeScript"
+  ],
+  "env": {
+    "WATSONX_API_KEY": {
+      "description": "IBM Cloud API Key",
+      "required": true
+    },
+    "WATSONX_PROJECT_ID": {
+      "description": "IBM watsonx.ai Project ID",
+      "required": true
+    },
+    "WATSONX_URL": {
+      "description": "IBM watsonx.ai Region URL",
+      "required": true
+    },
+    "WATSONX_MODEL_ID": {
+      "description": "IBM Granite Model ID",
+      "required": true
+    }
+  }
+}
